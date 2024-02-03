@@ -6,7 +6,7 @@ import ProductCards from './ProductCards'
 import ProductsHeader from './ProductsHeader'
 
 // ** Reactstrap Imports
-import {  Spinner } from 'reactstrap'
+import { Spinner } from 'reactstrap'
 
 
 const ProductsPage = props => {
@@ -23,7 +23,7 @@ const ProductsPage = props => {
   } = props
 
 
- 
+
 
   const Loader = () => {
     return (
