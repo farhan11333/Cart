@@ -19,7 +19,6 @@ const ProductsPage = props => {
     setActiveView,
     deleteCartItem,
     setSidebarOpen,
-    deleteWishlistItem
   } = props
 
 
