@@ -94,7 +94,7 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "test": "craco test",
+    "test": "playwright test",
     "eject": "react-scripts eject",
     "lint": "eslint src/**/*.js src/**/*.jsx",
     "lint:fix": "eslint src/**/*.js --fix"
@@ -103,9 +103,11 @@
     "extends": "react-app"
   },
   "devDependencies": {
+    "@playwright/test": "^1.41.2",
     "@types/sortablejs": "1.10.6",
     "eslint": "7.11.0",
     "eslint-plugin-import": "2.22.0",
+    "playwright": "^1.41.2",
     "sass-loader": "8.0.2"
   },
   "browserslist": {

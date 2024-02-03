@@ -9,10 +9,11 @@ import { ShoppingCart } from 'react-feather';
 import { Card, CardBody, CardText, Button, Dropdown, DropdownToggle, DropdownMenu, DropdownItem, Input, Row, Col } from 'reactstrap';
 import { setCart } from '../../../../redux/appCart';
 
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { useState } from 'react';
 
 const ProductCards = (props) => {
+  const dispatch= useDispatch()
   const cartItems = useSelector((store) => store.cart.cart);
   const storeProducts = useSelector((store) => store.cart.products);
 
